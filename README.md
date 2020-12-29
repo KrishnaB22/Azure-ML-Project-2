@@ -18,6 +18,14 @@ The model endpoints are consumed via REST api using the <i>endpoint.py</i> scrip
 <br><br>
 <br><br>
 
+## Future Work
+The AutoML run can be done by enabling deep learning to see if we can get better results.<br>
+Creating a parallel step pipeline.<br>
+Conversion of models to ONXX format.<br>
+The AutoML primary metric can be changed to see if we can get better results.<br>
+The other AutoML run parameter can be added(no_of_cross_validations).
+<br><br>
+<br><br>
 ## Key Steps<br>
 ### Step 1:
 The dataset is registered in Azure ML Studio by uploading the file or by using the url.<br>
