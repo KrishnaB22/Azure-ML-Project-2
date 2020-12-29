@@ -93,7 +93,7 @@ Publish and run from REST endpoint.<br>
 <b>Pipline Run completed.</b><br>
 <img src ="Screenshots/pipe comp.png">
 <br>
-<img src ="Screenshots/pipe deatail comp.png">
+<img src ="Screenshots/pipe detail comp.png">
 <br><br>
 
 <br><br>
