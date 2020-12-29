@@ -37,7 +37,7 @@ The other model parameters are<br><br>
 The best run model is deployed by using ML Studio in Azure Container Instances.<br>
 Authentication is enabled during the deployment.<br>
 <br>
-<img src ="Screenshots/aml delpoy.png">
+<img src ="Screenshots/applicationinsightenable.png">
 <br><br>
 <br><br>
 
