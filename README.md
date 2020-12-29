@@ -37,7 +37,7 @@ The other model parameters are<br><br>
 The best run model is deployed by using ML Studio in Azure Container Instances.<br>
 Authentication is enabled during the deployment.<br>
 <br>
-<img src ="Screenshots/aml deploy.png">
+<img src ="Screenshots/aml delpoy.png">
 <br><br>
 <br><br>
 
@@ -90,24 +90,25 @@ Publish and run from REST endpoint.<br>
 <br><br>
 ## Outpus of Pipelne run
 <br><br>
-<b>Pipline Run completed.</b>
-<img src ="Screenshots/nb pipelinecomp">
-<img src ="Screenshots/nb runcomp">
+<b>Pipline Run completed.</b><br>
+<img src ="Screenshots/nb pipelinecomp.png">
+<br>
+<img src ="Screenshots/nb runcomp.png">
 <br><br>
 
 <br><br>
-<b>Pipline endpoint</b.>
-<img src ="Screenshots/ml studio pipeline endpoint">
+<b>Pipline endpoint</b><br>
+<img src ="Screenshots/ml studio pipeline endpoint.png">
 <br><br>
 
 <br><br>
-<b>Published Pipline detail</b.>
-<img src ="Screenshots/ml studio pipelinedetail">
+<b>Published Pipline detail</b><br>
+<img src ="Screenshots/ml studio pipelinedetail.png">
 <br><br>
 
 <br><br>
-<b>Scheduled Pipeline running</b.>
-<img src ="Screenshots/endnb run">
+<b>Scheduled Pipeline running</b><br>
+<img src ="Screenshots/endnb run.png">
 <br><br>
 
 <br><br>
