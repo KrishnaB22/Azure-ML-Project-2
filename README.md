@@ -4,7 +4,12 @@
 This project is part of the Udacity Azure ML Nanodegree. In this project we use Microsoft Azure to configure a cloud based machine learning production model, deploy it, consume it.
 <br><br>
 ## Summary 
-The given dataset is bank marketing dataset.  We have to predict whether a client subscribed a term deposit or not. We first create a AutoML experiment with given dataset in ML Studio to find the optimal model. The optimal model is then deployed and is consumed via a REST-endpoint.
+The given dataset is bank marketing dataset.  We have to predict whether a client subscribed a term deposit or not. We first create a AutoML experiment with given dataset in ML Studio to find the optimal model. The optimal model is then deployed using ML Studio.<br>
+The model is deployed as a web service on Azure Container Instances with key based authorization.<br>
+The Application Insights are enabled on the deployed model by running the <i>logs.py</i> script.<br>
+The model endpoints are consumed via REST api using the <i>endpoint.py</i> script.<br>
+<br>
+<img src ="Screenshots/project block.png">
 <br><br>
 
 ## Architectural Diagram
