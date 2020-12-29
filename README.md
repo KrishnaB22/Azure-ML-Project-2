@@ -91,9 +91,9 @@ Publish and run from REST endpoint.<br>
 ## Outpus of Pipelne run
 <br><br>
 <b>Pipline Run completed.</b><br>
-<img src ="Screenshots/nb pipelinecomp.png">
+<img src ="Screenshots/pipe comp.png">
 <br>
-<img src ="Screenshots/nb runcomp.png">
+<img src ="Screenshots/pipe deatail comp.png">
 <br><br>
 
 <br><br>
@@ -108,8 +108,10 @@ Publish and run from REST endpoint.<br>
 
 <br><br>
 <b>Scheduled Pipeline running</b><br>
-<img src ="Screenshots/endnb run.png">
-<br><br>
+<img src ="Screenshots/pipe schedpipe.png">
+<br>
+<img src ="Screenshots/nb sched pipe.png">
+<br>
 
 <br><br>
 ## Screen Recording
