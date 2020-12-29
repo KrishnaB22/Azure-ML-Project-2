@@ -12,7 +12,8 @@ The given dataset is bank marketing dataset.  We have to predict whether a clien
 <img src ="Screenshots/block.png">
 <br><br>
 <br><br>
-## Key Steps
+
+## Key Steps<br>
 ### Step 1:
 The dataset is registered in Azure ML Studio by uploading the file or by using the url.<br>
 https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv<br>
@@ -58,6 +59,7 @@ The swagger-ui is run on port 9000. The serve.py is run at port 8000.<br>
 
 ### Step 6:
 For testing the REST endpoint the rest url and the appropriate keys are pasted in the endpoint.py file.<br>
+The endpoint.py creates a data.json file to send over the API.<br>
 The output after running the endpoint.py file is:<br><br>
 <img src ="Screenshots/endpoint execution.png">
 <br><br>
@@ -67,5 +69,47 @@ The output after running the endpoint.py file is:<br><br>
 The apache benchmark is run by using the benchmark.sh script.<br>
 The report of benchmark is:<br><br>
 <img src ="Screenshots/benchmark.png">
+<br><br>
+<br><br>
 
+## Notebook Output
+We create consume and publish the pipeline in Azure by using the notebook.<br>
+In the notebook we use a existing compute cluster and experiment to create a AutoML Pieline run.<br>
+We load the already created dataset in the notebook or create a new one using <i>TabularDataset</i>.<br>
+We configure AutoML using AutoMLConfig.<br>
+Create the Pipeline and AutoML Step.<br>
+<img src ="Screenshots/nb pipelinerun2.png">
 
+Test the best fitted model.<br>
+Generate the confusion matrix.<br>
+<img src ="Screenshots/nb confusion matrix.png"><br><br>
+
+Publish and run from REST endpoint.<br>
+<img src ="Screenshots/nb pipeline end point.png">
+<br><br>
+<br><br>
+## Outpus of Pipelne run
+<br><br>
+<b>Pipline Run completed.</b>
+<img src ="Screenshots/nb pipelinecomp">
+<img src ="Screenshots/nb runcomp">
+<br><br>
+
+<br><br>
+<b>Pipline endpoint</b.>
+<img src ="Screenshots/ml studio pipeline endpoint">
+<br><br>
+
+<br><br>
+<b>Published Pipline detail</b.>
+<img src ="Screenshots/ml studio pipelinedetail">
+<br><br>
+
+<br><br>
+<b>Scheduled Pipeline running</b.>
+<img src ="Screenshots/endnb run">
+<br><br>
+
+<br><br>
+## Screen Recording
+link
